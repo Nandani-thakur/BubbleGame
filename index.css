@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(46, 45, 45);
+}
+
+#pannel {
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#ptop  {
+    padding: 0px 30%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(101, 99, 99);
+}
+#timerval{
+    background-color: white;
+    color: rgb(17, 143, 233);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.box  {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(17, 143, 233);
+}
+
+
+.element  {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+#pbtm {
+    width: 100%;
+    height: calc(100%-100px);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#bubble{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(17, 143, 233);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#bubble:hover{
+    background-color: rgb(13, 88, 175);
+}
